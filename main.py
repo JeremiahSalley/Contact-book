@@ -79,6 +79,7 @@ def create_contact():
         birthday = new_birthday,
         number = new_number
     )
+    new_contact.save()
     black_book()
 
 # find contact by first name 
